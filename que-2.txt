@@ -1,0 +1,43 @@
+1.How to link css files-
+By using the link element external css files are linked
+- <link href=”css file name here “ rel=”stylesheet”>
+2.Display:Visibility
+Display:none
+Here the actual info inside the tag will be none.
+Display:hidden:
+Here the space will be allocated for the element but still hidden.
+
+3.anonymous function-
+Syntax-
+Let x= ( ) =>
+{ console.log(“text”)
+}
+X( )-Invoking or calling the function.
+Op-“text”
+
+4. 4. Splice and slice difference and what it will returns
+Slice- it will remove a specific element from an array and stored to a new array
+It doesn’t do any change to original array.
+Splice- it is used to add or remove items from an array, this will overwrite on the existing array.
+
+
+5.Spread operator-
+const numbers = [1, 2, 3];
+console.log(numbers);
+op-[1,2,3]
+
+const numbers = [1, 2, 3];
+console.log(…numbers);
+op-1 2 3.
+It will spread the element in an array, when rest operator is used as
+[a,b,c]=…numbers
+The values are assigned as;
+A=1;
+B=2;
+C=3;
+
+
+6. Difference Between local storage and session storage-
+Local storage datas doesn’t expire
+While session storage will expire when the session expires
+

@@ -1,0 +1,59 @@
+1. Semantic tags
+
+Answer:
+
+<article>-Independent, self-contained content.
+
+<aside>-Some content aside from the content it is placed in a sidebar.
+
+<details>-Create an interactive widget that the user can open and close on demand.
+
+<figcaption>-
+<figure> element to mark up a illustrations, diagrams, photos, code listings in a document
+
+<figcaption>element to define a caption for the photo
+
+<footer>-Defines a footer for a document or section
+
+<header>-Specifies a header for a document or section
+
+<main>-Specifies the main content of a document.
+
+<mark>-Defines text that should be marked or highlighted.
+
+<nav>-Defines navigation links
+
+<section>-Defines a section in a document.
+
+<summary>-	Defines a visible heading for a <details> element
+
+<time>-Defines a date/time
+
+
+2. Iframe-
+Answer:
+ Inline frame is used to embed another document within the current HTML document.
+
+3. Z index-
+ Specifies the stack order of one element over another element
+
+
+4. Canvas tag-
+Is used to draw graphics, on the fly, via scripting
+
+5. Hosting-
+ A variable can be declared after it has been used.
+
+
+6. let,var,const difference-
+*let is block scoped, cannot reaasign a valur on same variable with let.
+*var is not block scoped, it can be accessed even out of the block and can be assigned with a new valuer to the variable.
+*cosnt is used on datas which does change and remains the same until the end of the program.
+
+
+7. Position-
+*Fixed
+*static
+*sticky
+*absolute and 
+*relative

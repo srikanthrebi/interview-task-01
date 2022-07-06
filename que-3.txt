@@ -1,0 +1,107 @@
+1.How to invoke a funtion?
+
+In other words can also be said as , calling a function
+
+ex:function myFunction() {
+  return a * b;
+}
+
+to invoke the above funtion can use myfunction();
+or else can use other inbuilt funtions which calls other functions by themselves.
+
+
+2. Difference between break and continue.
+
+ break will totally jump out the loop after reaching a specific condition mentioned by the programmer
+
+ continue will break the loop but just the current iteration and continues to the next loop until reaching the end condition.
+
+3. Function types with example.
+Named Functions-
+ex:Function myFunction() {
+  return a * b;
+}
+has a name and can be invoked by using the name of funtion.
+
+Anonymous or arrow function-
+ex:function myFunction( ()=>{console.log(1);
+console.log(2);}) {
+  return a * b;
+}
+doesn't have a name to function, 
+name can be assigned later.
+
+4. String methods with example-
+String length
+text="Hello World!"
+text.length=12.
+
+Splice()
+ 
+
+Substring()
+ str = "Apple, Banana, Kiwi";
+ part = str.substring(7, 13);
+
+replace()
+text = "Please visit Micro"; 
+new = text.replace("Micro", "soft");
+o/p-"Please visit soft"; 
+/g- is used globally to replace all existing string with another string. 
+
+toUpperCase and toLowerCase
+ text1 = "Hello World!";
+ text2 = text1.toUpperCase();
+op-“HELLO WORLD”
+
+toLowerCase
+ text1 = "Hello World!";
+ text2 = text1. toLowerCase();
+op-“hello world”
+
+concat();
+text1=”hello”
+text2-“world”
+text1.concat(text2);
+op-helloworld;
+
+trim()
+let text1 = " Hello World!  ";
+let text2 = text1.trim();
+text1.length=14
+text2.length=12
+
+padstart()
+ text = "3";
+text2= = text.padStart(4,"x");
+op-xxx4.
+
+padend()
+ text = "3";
+text2= = text.padend(4,"1");
+op-4111
+
+5.Difference Between replace( ) and replaceall( ).
+Replace( )
+text=I have written a program for program task
+text2=text.replace(‘program’,”test”);
+op-text2= I have written a test for program task
+
+replaceAll( )
+text=I have written a program for program task
+text2=text.replaceall(‘program’,”test”);
+op-text2= I have written a test for test task
+
+
+6.Ternary operator-
+Contains a condition followed by as ?
+If the condition is true:execute a value
+If the condition is false:execute a value
+
+Sum=0;
+Result=(sum==0)?”yes” : “no”;
+Op: “yes”
+
+
+
+
